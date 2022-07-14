@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders & Backgrounds</title>
+    <style>
+        body {
+            background-image: url('bg2.jpg');
+            background-size: contain;
+        }
+
+        #d1,
+        #d2 {
+
+            height: 100px;
+            width: 30%;
+            background-color: black;
+            color: white;
+            border-width: 3px;
+            border-color: red;
+            border-style: solid;
+            /*required because by default it take black color */
+            border-radius: 30px;
+            text-align: center;
+            text-shadow: 1px 1px red;
+
+        }
+
+        #d3 {
+            height: 100px;
+            width: 30%;
+            background-color: black;
+            color: white;
+            /* or we can write above in single line like*/
+            border: 3px solid green;
+            border-radius: 30px;
+            text-align: center;
+            text-shadow: 1px 1px blue;
+        }
+
+        #d4 {
+            height: 100px;
+            width: 30%;
+            background-color: black;
+            color: white;
+            /* or we can write above in single line like*/
+            border-top: 3px solid green;
+            border-bottom: 3px solid red;
+            border-left: 3px solid blue;
+            border-right: 3px solid pink;
+            border-radius: 30px;
+            text-align: center;
+
+        }
+
+        #d5 {
+            height: 100px;
+            width: 30%;
+            background-color: black;
+            color: white;
+            /* or we can write above in single line like*/
+            border-bottom: 3px solid green;
+            border-top-left-radius: 30px;
+            text-align: center;
+            text-shadow: 2px 2px red;
+            box-shadow: 1px 1px white;
+        }
+
+        #d6 {
+            height: 100px;
+            width: 30%;
+            background-color: black;
+            color: white;
+            /* or we can write above in single line like*/
+            border-bottom: 3px solid green;
+            border-bottom-left-radius: 30px;
+            text-align: center;
+        }
+
+        #d7 {
+            height: 500px;
+            width: 30%;
+            color: white;
+            /* or we can write above in single line like*/
+            border-bottom: 3px solid green;
+            border-bottom-right-radius: 30px;
+            text-align: center;
+            background-image: url('https://theqalead.b-cdn.net/wp-content/uploads/2021/05/logo-qal.png');
+            background-repeat: no-repeat;
+
+            background-position: center center;
+            /*
+           combinations
+            background-position: center left;
+            background-position: center right;
+            background-position: top center;
+            background-position: top left;
+            background-position: top right;
+            background-position: top top;
+            background-position: bottom left;
+            background-position: bottom right;
+            background-position: 120px 50px; 
+        */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Borders & Backgrounds CSS</h1>
+    <p id="d1">This is p 1</p>
+    <p id="d2">This is p 2</p>
+    <p id="d3">This is p 3</p>
+    <p id="d4">This is p 4</p>
+    <p id="d5">This is p 5</p>
+    <p id="d6">This is p 6</p>
+    <div id="d7">This is p 6</div>
+</body>
+
+</html>

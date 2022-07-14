@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Float and Clear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #float_and_clear {
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        #container {
+            margin: 33px auto;
+            /* auto: center the contents means center the div*/
+            border: 2px solid black;
+            width: 900px;
+            border-radius: 30px;
+            background-color: rgb(243, 242, 242);
+            box-shadow: 10px;
+        }
+
+        .item {
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(228, 212, 212);
+            font-family: 'Ubuntu', sans-serif;
+            border-radius: 30px;
+        }
+
+        #fruits {
+            float: right;
+            width: 48%;
+        }
+
+        #computers {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            clear: both;
+            width: 100%;
+        }
+
+        p,
+        h3 {
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="float_and_clear">CSS Float & Clear</h1>
+    <div id="container">
+        <h1>Welcome To My Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nam hic incidunt unde nihil voluptatem corrupti
+                velit odio, illum eum maiores nesciunt recusandae vel sint,
+                corporis reprehenderit debitis veniam similique.
+            </p>
+        </div>
+
+        <div id="computers" class="item">
+            <h3>Computers</h3>
+            <p id="computerspara" class="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis possimus enim ipsa consectetur quasi rerum
+                impedit dolores quia quod repellendus autem assumenda culpa
+                eos ex, ab iure cupiditate quaerat necessitatibus.
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis possimus enim ipsa consectetur quasi rerum
+                impedit dolores quia quod repellendus autem assumenda culpa
+                eos ex, ab iure cupiditate quaerat necessitatibus.
+            </p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis possimus enim ipsa consectetur quasi rerum
+                impedit dolores quia quod repellendus autem assumenda culpa
+                eos ex, ab iure cupiditate quaerat necessitatibus.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

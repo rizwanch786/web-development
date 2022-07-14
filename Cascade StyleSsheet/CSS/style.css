@@ -1,0 +1,38 @@
+/* Grouping Selector */
+h1,
+.def {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Class Selector */
+#types {
+    width: 30%;
+    color: gray;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+/* By Element Selector */
+h3 {
+    color: aqua !important;
+}
+
+/* Class Selector */
+.selectors {
+    color: brown;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 50px;
+    border-style:dotted;
+}
+
+#p1{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(43, 19, 194);
+}

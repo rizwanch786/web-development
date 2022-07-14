@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Navigation Menu</title>
+    <style>
+       * {
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 5px;
+            height: 35px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            padding: 4px 3px;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            margin: 3px 3px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            margin: auto;
+            text-decoration: none;
+        }
+
+        .navbar ul li a:hover {
+            color: rgb(197, 118, 118);
+
+        }
+
+        .navbar div input {
+            float: right;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 3px 10px;
+            margin-right:10px;
+        }
+        .navbar div img{
+            height: 25px;
+            width: 25px;
+            float: left;
+            margin: 5px 5px 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="GCS_logo.png" alt="logo">
+            </div>
+            <ul>
+                <li>
+                    <a href="" class="btn">Home</a>
+                </li>
+                <li>
+                    <a href="" class="btn">Contact Us</a>
+                </li>
+                <li>
+                    <a href="" class="btn">About Us</a>
+                </li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search any website here">
+                </div>
+            </ul>
+    </header>
+    </div>
+</body>
+
+</html>
